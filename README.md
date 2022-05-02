@@ -132,7 +132,7 @@ Intent stopIntent = new Intent(this, MyService.class);
 stopService(stopIntent);//停止服务——活动决定服务停止
 ```
 
-**2.服务自己停止：**在服务中任意位置调用stopSelf()
+**2.服务自己停止**，在服务中任意位置调用stopSelf()
 
 #### 活动和服务进行通信
 
